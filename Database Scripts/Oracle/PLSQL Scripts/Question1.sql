@@ -1,0 +1,11 @@
+--Create
+CREATE SEQUENCE o_id_seq
+  START WITH 50 
+  MAXVALUE 60
+  INCREMENT BY 1;
+  
+--Display
+SELECT o_id_seq.NEXTVAL FROM DUAL;
+
+--DROP
+DROP SEQUENCE o_id_seq;
